@@ -17,14 +17,12 @@ az quantum workspace set -g {resource group name} -w {workspace name} -l {locati
 ```
 az quantum target list -o table   
 ```
-az quantum execute --target-id {target.name} --shots {count} -o table
 
 # Execution
 
 ## run on a simulator
 
 ```
-az quantum execute --target-id {target.name} -o table
 az quantum execute --target-id ionq.simulator -o table
 ```
 

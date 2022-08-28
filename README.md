@@ -1,1 +1,1 @@
-# 2022-dotnetday-demos-
+# 2022-dotnetday-demos
